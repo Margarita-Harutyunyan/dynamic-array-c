@@ -84,7 +84,7 @@ void traverse(DynamicArray* self)
 {	
 	printf("Traversing the array\n");
 	for (int i = 0; i < self->size; i++){
-		printf("%d\t", self->arr[i]);
+		printf("%d  ", self->arr[i]);
 	}
 	printf("\n");
 }
